@@ -21,35 +21,11 @@ html, body {
     min-height: 100%;
 }
 
-.nav ul {
-    margin: 0;
+.navbar-customclass{
+    background-color: #1CD6CE;
+    
 }
 
-.nav li {
-    display: inline;
-}
-
-.nav a {
-    display: inline-block;
-    padding: .5em;
-    color: white;
-    text-decoration: none;
-}
-
-.main-nav {
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
-}
-
-.main-nav li {
-    padding: 0 5%;
-}
-
-.nav a:hover {
-    background-color: rgba(255, 255, 255, .3)
-}
 
 .main-header {
     background-color: rgba(0, 0, 0, .6);
@@ -89,6 +65,7 @@ html, body {
     font-size: 2.5em;
 }
 
+
 .about-image {
     float: left;
     height: 200px;
@@ -98,7 +75,8 @@ html, body {
 }
 
 .main-footer {
-    background-color: #0ED7B3;
+    background-color: #293462;
+    
     color: white;
     padding: .25em 0;
 }
