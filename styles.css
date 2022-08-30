@@ -48,10 +48,11 @@ background-repeat: no-repeat;
 background-size:cover;
 }
 
+
 /*HOME PAGE STYLING*/
 
 .introduction{
-    background-color: #252A34;
+    background-color: #11999E;
 }
 
 .introduction p {
@@ -61,8 +62,9 @@ background-size:cover;
 }
 
 .favorite-courses {
-    background-color: #EAEAEA;
+    background-color: #40514E;
 }
+
 
 /*SHOP PAGE STYLING*/
 
