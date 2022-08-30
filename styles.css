@@ -18,7 +18,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    min-height: 100%;
+    
 }
 
 .navbar-customclass{
@@ -26,112 +26,45 @@ html, body {
     
 }
 
-
-.main-header {
-    background-color: rgba(0, 0, 0, .6);
-    background-image: url("Images/backgroundDisc2.jpg");
-    background-blend-mode: multiply;
-    background-size: cover;
-    padding-bottom: 30px;
-}
-
-.header-name {
-    text-align: center;
-    margin: 0;
-    font-size: 4em;
-    font-family: "Booter - Zero Zero";
-    font-weight: normal;
-    color: white;
-}
-
-.header-name-large {
-    font-size: 8em;
-}
-
-.content-section {
-    margin: 1em;
-}
-
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1.5em;
-}
-.section-header {
-    font-family: "Metal Mania";
-    font-weight: normal;
-    color: #333;
-    text-align: center;
-    font-size: 2.5em;
-}
-
-
-.about-image {
-    float: left;
-    height: 200px;
-    width: 200px;
-    margin: 15px;
-    border-radius: 50%;
-}
-
-.main-footer {
-    background-color: #293462;
-    
-    color: white;
-    padding: .25em 0;
-}
-
 .site-name{
     color:white;
 }
 
-.main-footer-container {
-    display: flex;
-    align-items: center;
-}
-
-.main-footer-container ul {
-    flex-grow: 1;
-    text-align: end;
-}
-
-.footer-nav li {
-    padding: 0 .5em;
-}
-
-.footer-nav img {
-    width: 45px;
-    height: 40px;
-}
-
-.btn {
-    text-align: center;
-    vertical-align: middle;
-    padding: .67em .67em;
-    cursor: pointer;
-}
-
-
-.btn-header:hover {
-    background-color: rgba(255, 255, 255, .3);
-}
-
-
-
 .btn-primary {
     color: white;
-    background-color: #0ED7B3;
+    background-color: #1CD6CE;
     border: none;
     border-radius: .3em;
     font-weight: bold;
 }
 
 .btn-primary:hover {
-    background-color: #2D9CDB;
+    background-color: #1CD6CE;
 }
 
+/*HERO IMAGE STYLING*/
+.hero-image {
+background-repeat: no-repeat;
+background-size:cover;
+}
 
+/*HOME PAGE STYLING*/
 
+.introduction{
+    background-color: #252A34;
+}
+
+.introduction p {
+    font-size:26px;
+    text-align: center;
+    color: #eee;
+}
+
+.favorite-courses {
+    background-color: #EAEAEA;
+}
+
+/*SHOP PAGE STYLING*/
 
 .shop-item {
     margin: 30px;
@@ -167,6 +100,8 @@ html, body {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+/*CART STYLE*/
 
 .cart-header {
     font-weight: bold;
@@ -268,4 +203,32 @@ html, body {
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
+}
+
+/*ABOUT PAGE STYLING*/
+
+.about-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+
+/*FOOTER STYLE*/
+.main-footer {
+    background-color: #293462; 
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
 }
