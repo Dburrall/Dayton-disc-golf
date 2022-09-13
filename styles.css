@@ -52,13 +52,40 @@ background-size:cover;
 
 /*HOME PAGE STYLING*/
 
-.introduction{
-    background-color: #11999E;
+.parallax {
+    /* The image used */
+    background-image: url("images/discGolfHero.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-.introduction p {
-    font-size:26px;
-    text-align: center;
+.parallax h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.parallax a{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#introduction p {
+    display:flex;
+    font-size:31px;
+    font-weight: 400;
+    text-align:flex-start;
+    max-width:400px;
     color: #eee;
 }
 

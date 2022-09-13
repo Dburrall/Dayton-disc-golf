@@ -5,6 +5,9 @@
         <meta name="description" content="This is the description">
         <link rel="stylesheet" href="styles.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="parallax.js" async></script>
+        
     </head>
     <body>
 
@@ -41,10 +44,7 @@
           
             <!-- Hero -->
 <!-- Hero -->
-<div class="hero-image p-5 text-center bg-image rounded-3" style="
-    background-image: url('images/discGolfHero.jpg');
-    height: 800px;
-  ">
+<div class="parallax">
   
     <div class="d-flex justify-content-center align-items-center h-100">
       <div class="text-white">
@@ -56,24 +56,31 @@
   </div>
 </div>
 <!-- Hero -->
-        <section class="introduction">
-<br>
-          <div class="clearfix">
-           
-            <img  src="images/disc-golf-throw-3.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="throwing a disc">
+
+       
+<!--section start-->
+<section id="introduction">
+<div class="hero-image p-5 text-center bg-image rounded-3" style="
+background-image: url('images/disc-golf-throw-3.jpg');
+height: 800px;
+">
           
-            <p>
-              Dayton is known for all types of things: fine dining, a great night life & historic tourist attractions. There is another thing that gets overlooked: It's amazing Disc Golf Community.
+            <p class="p1">
+              Dayton Disc Golf is here to show support for the amazing Disc Golf community around Dayton, Ohio.
             </p>
-          
-            <p>
-              You may not know this, but within 25 mile radius of Dayton there are over 50 courses to choose from. That's right <b>FIFTY</b>
+<br>
+            <p class="p2">
+              Dayton is home of over Fifty courses over a 35 mile radius.
+            </p>
+<br>
+            <p class="p3">
+              Shop, gear up, and find new places to play on our all in one site.
             </p>
 
-            <p>Not to mention we have some of the best shops and community to help you get into Disc Golf. With stores like <a href="https://hazyshade.com"> Hazy Shade</a> that are dedicated Disc Golf stores, you can pick up some discs and advice.</p>
+          
           
            
-          </div>
+  
         </section>
 
         <section id="favorite-courses">
@@ -122,5 +129,11 @@
                
             </div>
         </footer>
+        <script>
+          ScrollReveal().reveal('.p1');
+          ScrollReveal().reveal('.p2', { delay: 500 });
+          ScrollReveal().reveal('.p3', { delay: 1500 });
+        </script>
     </body>
+    
 </html>
