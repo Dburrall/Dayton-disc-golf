@@ -17,10 +17,19 @@
 
 html, body {
     margin: 0;
-    padding: 0;
-    
-    
+    padding: 0; 
 }
+
+ 
+  nav{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
 
 .navbar-customclass{
     background-color: #1CD6CE;
@@ -43,11 +52,7 @@ html, body {
     background-color: #1CD6CE;
 }
 
-/*HERO IMAGE STYLING*/
-.hero-image {
-background-repeat: no-repeat;
-background-size:cover;
-}
+
 
 
 /*HOME PAGE STYLING*/
