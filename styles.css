@@ -32,7 +32,7 @@ html, body {
   }
 
 .navbar-customclass{
-    background-color: #1CD6CE;
+    background-color: #1C6758;
     
 }
 
@@ -59,10 +59,15 @@ html, body {
 
 .parallax {
     /* The image used */
-    background-image: url("images/discGolfHero.jpg");
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url("images/discGolfHero.jpg");
   
     /* Set a specific height */
     min-height: 800px; 
+
+  
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -85,17 +90,30 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%)
 }
+
+#introduction {
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+}
 #introduction p {
     display:flex;
     font-size:31px;
-    font-weight: 400;
+    font-weight: 900;
     text-align:flex-start;
     max-width:400px;
     color: #eee;
 }
 
+#shop-now {
+display:flex;
+flex-direction: row;
+background-color: #EEF2E6;
+}
+
 #favorite-courses {
-    background-color: #40514E;
+    background-color: #3D8361;
 }
 
 .card-img-top {
@@ -265,8 +283,8 @@ html, body {
 
 /*FOOTER STYLE*/
 .main-footer {
-    background-color: #293462; 
-    color: white;
+    background-color: #EEF2E6; 
+    color: black;
     padding: .25em 0;
 }
 
@@ -278,4 +296,9 @@ html, body {
 .main-footer-container ul {
     flex-grow: 1;
     text-align: end;
+}
+
+.site-name{
+    color:#000;
+    font-weight:900
 }
