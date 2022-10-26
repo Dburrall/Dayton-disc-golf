@@ -277,48 +277,37 @@ background-color: #EEF2E6;
     font-size: 1.75em;
 }
 
-/*ABOUT PAGE STYLING*/
+/*LOCATIONS*/
 
-.about-image {
-    float: left;
-    height: 200px;
-    width: 200px;
-    margin: 15px;
-    border-radius: 50%;
+#courses{
+    background-color:#F6FBF4;
 }
 
-
-/*FOOTER STYLE*/
-.main-footer {
-    background-color: #EEF2E6; 
-    color: black;
-    padding: .25em 0;
+.section-header{
+    font-size:40px;
+    font-weight:1000;
+    text-align: center;
 }
 
-.main-footer-container {
-    display: flex;
-    align-items: center;
+.container-location{
+    border:2px solid black;
+    background-color:#F6FBF4;
+    max-width:500px;
 }
 
-.main-footer-container ul {
-    flex-grow: 1;
-    text-align: end;
-}
-
-.site-name{
-    color:#000;
-    font-weight:900
-}
+.checked {
+    color: orange;
+  }
 
 .cardcontainer{
     width: 350px;
     height: 500px;
-    background-color: white;
+    background-color: #F6FBF4;
     margin-left: auto;
     margin-right: auto;
     transition: 0.3s;
 }
-.cardcontainer:hover{
+.container-location:hover{
     box-shadow: 0 0 45px gray;
 }
 .photo{
@@ -356,4 +345,39 @@ background-color: #EEF2E6;
 .txt2{
     position: relative;
     top: 10px;
+    font-weight:1000;
 }
+
+/*ABOUT PAGE*/
+
+.about-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+
+/*FOOTER STYLE*/
+.main-footer {
+    background-color: #EEF2E6; 
+    color: black;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.site-name{
+    color:#000;
+    font-weight:900
+}
+
