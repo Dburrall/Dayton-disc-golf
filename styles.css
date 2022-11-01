@@ -370,6 +370,11 @@ background-color: #EEF2E6;
 }
 
 
+/*GOOGLE MAPS*/
+#map{
+    height:100%;
+}
+
 /*FOOTER STYLE*/
 .main-footer {
     background-color: #EEF2E6; 
