@@ -290,6 +290,11 @@ background-color: #EEF2E6;
 
 /*LOCATIONS*/
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 #courses{
     background-color:#F6FBF4;
 }
@@ -304,6 +309,8 @@ background-color: #EEF2E6;
     border:2px solid black;
     background-color:#F6FBF4;
     max-width:500px;
+    color: #000;
+    text-decoration: none;
 }
 
 .checked {
@@ -372,7 +379,8 @@ background-color: #EEF2E6;
 
 /*GOOGLE MAPS*/
 #map{
-    height:100%;
+    height:900px;
+    width:100%;
 }
 
 /*FOOTER STYLE*/
