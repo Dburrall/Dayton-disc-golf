@@ -149,6 +149,8 @@ background-color: #EEF2E6;
 
 /*SHOP PAGE STYLING*/
 
+
+
 .shop-item {
     margin: 30px;
 }
@@ -296,7 +298,7 @@ a, a:hover, a:focus, a:active {
 }
 
 #courses{
-    background-color:#F6FBF4;
+    background-color:#D6CDA4;
 }
 
 .section-header{
