@@ -120,8 +120,10 @@ color: #fff;
 }
 
 .disc-header{
+    margin:0;
     text-align: center;
     background-color: #EEF2E6;
+    font-size:44px;
 }
 
 #shop-now {
@@ -148,8 +150,6 @@ background-color: #EEF2E6;
 
 
 /*SHOP PAGE STYLING*/
-
-
 
 .shop-item {
     margin: 30px;
@@ -413,25 +413,18 @@ a, a:hover, a:focus, a:active {
 @media only screen and (max-width: 480px) {
 
     html,
-body{
+    body{
   width: 100%;
   height: 100vh;
 }
 
     .parallax{
-        min-width: 600px;
+        min-width: 800px;
         height:auto;
         object-fit: cover;
-        
-       
-        
+          
     }
 
-   #favorite-courses .col {
-    min-width: 180px;
-    height:auto;
-   }
-    
    #introduction .hero-image{
     width: 800px;
    max-width: 1000px;
@@ -440,11 +433,31 @@ body{
    }
 
    #shop-now {
-    min-width:800px;
+    width:800px;
+   }
+
+   #shop-now .container {
+    width:33%;
+    height:auto;
    }
 
    #favorite-courses{
-    min-width: 800px;
+   width:800px;;
+   }
+
+   #favorite-courses .col {
+    width:33%;
+    max-height:auto;
+   }
+
+   #favorite-courses .card-text {
+    
+
+   }
+
+   #favorite-courses .btn {
+    min-width: 12vh;
+    height:auto;
    }
 
 }
