@@ -404,6 +404,24 @@ a, a:hover, a:focus, a:active {
 
 .site-name{
     color:#000;
-    font-weight:900
+    font-weight:900;
 }
 
+/*MEDIA QUERIES*/
+
+/*PHONES*/
+@media only screen and (max-width: 480px) {
+
+    .parallax{
+        min-width: 500px;
+        height:auto;
+       
+        
+    }
+
+   #favorite-courses .col {
+    min-width: 180px;
+    height:auto;
+   }
+
+}
