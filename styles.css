@@ -110,6 +110,10 @@ color: #fff;
       rgba(0, 0, 0, 0.5)
     ),
 }
+
+.hero-image{
+    background-size:cover;
+}
 #introduction p {
     display:flex;
     font-size:31px;
@@ -419,16 +423,13 @@ a, a:hover, a:focus, a:active {
 }
 
     .parallax{
-        min-width: 800px;
-        height:auto;
-        object-fit: cover;
-          
+        display:block;
+        
+       
     }
 
    #introduction .hero-image{
-    width: 800px;
-   max-width: 1000px;
-    height: auto ;
+    display:block;
 
    }
 
