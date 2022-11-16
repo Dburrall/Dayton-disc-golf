@@ -418,7 +418,8 @@ a, a:hover, a:focus, a:active {
 
     html,
     body{
-  width: 100%;
+        overflow-x:hidden;
+  width: 400px;
   height: 100vh;
 }
 
@@ -432,23 +433,19 @@ a, a:hover, a:focus, a:active {
    }
 
    #shop-now {
-    width:800px;
+    
+    flex-direction:column;
+    align-items: flex-start;
    }
 
-   #shop-now .container {
-    width:33%;
-    height:auto;
-   }
+   
 
    #favorite-courses{
-   width:800px;;
+  
+   flex-direction: column;
    }
 
-   #favorite-courses .col {
-    width:33%;
-    max-height:auto;
 
-   }
 
    #favorite-courses .card-body {
     min-height:350px;
