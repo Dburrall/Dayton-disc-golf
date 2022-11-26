@@ -44,17 +44,18 @@
                     <!-- <button id="btn-search">Search</button> -->
                 </form>
             </div>
-            <div class="filter-box">
-                <button type="button" class="btn btn-success" data-filter="all">All</button>
-                <button type="button" class="btn btn-success" data-filter="drivers">Drivers</button>
-                <button type="button" class="btn btn-success" data-filter="shirt">Mid-range</button>
-                <button type="button" class="btn btn-success"data-filter="gown">Putters</button>
-                <button type="button" class="btn btn-success"data-filter="jewelry">Bags</button>
+            <div class="filter">
+                <button type="button" class="btn btn-success" onClick="filterSelection('all')">All</button>
+                <button type="button" class="btn btn-success" onClick="filterSelection('driver')" >Drivers</button>
+                <button type="button" class="btn btn-success" onClick="filterSelection('mid')" >Mid-range</button>
+                <button type="button" class="btn btn-success" onClick="filterSelection('putter')">Putters</button>
+                <button type="button" class="btn btn-success" onClick="filterSelection('bag')">Bags</button>
             </div>
         </div>
             <h2 class="section-header">Featured Discs</h2>
             <div class="container text-center">
                 <div class="row row-cols-2">
+                    <div class="filterDiv driver">
                     <div class="col">
                     <span class="shop-item-title">Sheriff Driver</span>
                     <img class="shop-item-image" src="Images/driversPopular1.jpg">
@@ -63,6 +64,7 @@
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
                     </div>
+                </div>
                 
                 
                     <div class="col">

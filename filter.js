@@ -1,46 +1,42 @@
-const btns = document.querySelectorAll('.btn');
-const storeProducts = document.querySelectorAll('.store-product');
-// const search = document.getElementById(search);
+filterSelection("all")
+function filterSelection(c) {
+  let x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    removeClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) addClass(x[i], "show");
+  }
+}
 
-for (i = 0; i < btns.length; i++) {
+function addClass(element, name) {
+  let i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
 
-    btns[i].addEventListener('click', (e) => {
-        e.preventDefault()
-        
-        const filter = e.target.dataset.filter;
-        console.log(filter);
-        
-        storeProducts.forEach((product)=> {
-            if (filter === 'all'){
-                product.style.display = 'block'
-            } else {
-                if (product.classList.contains(filter)){
-                    product.style.display = 'block'
-                } else {
-                    product.style.display = 'none'
-                }
-            }
-        });
-    });
-};
+function removeClass(element, name) {
+  let i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
 
-// SEARCH FILTER
-const search = document.getElementById("search");
-const productName = document.querySelectorAll(".product-details h2");
-
-// A BETTER WAY TO FILTER THROUGH THE PRODUCTS
-search.addEventListener("keyup", filterProducts);
-
-
-function filterProducts(e) {
-    const text = e.target.value.toLowerCase();
-    // console.log(productName[0]);
-    productName.forEach(function(product) {
-        const item = product.firstChild.textContent;
-        if (item.toLowerCase().indexOf(text) != -1) {
-            product.parentElement.parentElement.style.display = "block"
-        } else {
-            product.parentElement.parentElement.style.display = "none"
-        }
-    })
+// Add active class to the current button (highlight it)
+let btnContainer = document.getElementById("filter");
+let btns = btnContainer.getElementsByClassName("btn");
+for (let i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    let current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
 }
