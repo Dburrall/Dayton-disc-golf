@@ -32,7 +32,7 @@ function removeClass(element, name) {
 
 // Add active class to the current button (highlight it)
 let btnContainer = document.getElementById("filter");
-let btns = btnContainer.getElementsByClassName("btn");
+let btns = btnContainer.getElementsByClassName("btn btn-success");
 for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
     let current = document.getElementsByClassName("active");
