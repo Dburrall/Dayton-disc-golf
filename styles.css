@@ -154,7 +154,13 @@ background-color: #EEF2E6;
 
 
 /*SHOP PAGE STYLING*/
+.filterDiv {
+    display: none;
+}
 
+.show {
+    display: block;
+}
 .shop-item {
     margin: 30px;
 }
