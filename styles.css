@@ -187,6 +187,7 @@ background-color: #EEF2E6;
 }
 
 .shop-item-details {
+    list-style: none;
     align-items: center;
     padding: 5px;
 }
