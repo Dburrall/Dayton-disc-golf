@@ -165,8 +165,10 @@ background-color: #EEF2E6;
 #myBtnContainer{
    padding:20px;
 }
-.shop-item {
-    margin: 30px;
+
+.col{
+    border-right:2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .shop-item-title {
@@ -194,35 +196,14 @@ background-color: #EEF2E6;
     font-size:20px;
     font-weight:bold;
     color: rgb(17, 16, 16);
+   
 }
 
-form input {
-    width: 20rem;
-    padding: .7rem;
-    border: 2px solid black;
-    border-radius: 5px;
-    font-size: 1rem;
-    border-bottom: 2px solid var(--color-sec);
-    margin-bottom: 1rem;
+.shop-item-button {
+    width:180px;
+    height:auto;
 }
-
- .btn {
-    font-size: 1rem;
-    text-decoration: none;
-    color: #fff;
-    margin-right: 1rem;
-    background-color: var(--color-sec);
-    padding: 5px;
-    border-radius: 3px;
-}
-
-.active {
-    background-color: var(--color-primary);
-}
-
-
-
-
+ 
 /*CART STYLE*/
 
 .cart-header {
