@@ -10,7 +10,8 @@ function filterSelection(c) {
   }
 }
 
-// Show filtered elements
+// Show filtered elements+
+
 function w3AddClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
