@@ -437,7 +437,7 @@ a, a:hover, a:focus, a:active {
   width: 400px;
   height: 100vh;
 }
-
+/*Home page Mobile*/
     .parallax{
         display:block;
     }
@@ -470,7 +470,13 @@ a, a:hover, a:focus, a:active {
     min-width: 12vh;
     min-height:auto;
    }
-#courses .photo{
- object-fit: contain;
+
+   /*Store Mobile*/
+   
+
+   /*Locations Mobile*/
+.photo img{
+   object-fit: contain;
+ 
 }
 }
