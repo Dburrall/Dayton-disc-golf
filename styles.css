@@ -104,23 +104,16 @@ color: #fff;
     transform: translate(-50%, -50%)
 }
 
-#introduction {
-    background-image:linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-}
 
-.hero-image{
-    background-size:cover;
+#introduction{
+    height:600px;
 }
 #introduction p {
     display:flex;
     font-size:31px;
     font-weight: 900;
     text-align:flex-start;
-    max-width:350px;
-    color: #eee;
+    color: #000;
 }
 
 .disc-header{
@@ -166,10 +159,7 @@ background-color: #E4F9F5;
    padding:20px;
 }
 
-.col{
-    border-right:2px solid black;
-    border-bottom: 2px solid black;
-}
+
 
 .shop-item-title {
     display: block;
