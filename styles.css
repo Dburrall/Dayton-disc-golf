@@ -134,8 +134,26 @@ flex-direction: row;
 background-color: #E4F9F5;
 }
 
+#shop-now .btn {
+    background-color: #11999E !important;
+    color: #fff;
+
+}
+
 #favorite-courses {
     background-color: #40514E;
+}
+
+#favorite-courses h1 {
+    font-size:64px;
+    color: #ffff
+    
+}
+
+#favorite-courses .btn {
+    background-color: #11999E !important;
+    color: #fff;
+    
 }
 
 .card-img-top {
