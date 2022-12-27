@@ -106,14 +106,20 @@ color: #fff;
 
 
 #introduction{
-    height:600px;
+    min-height:700px;
+    margin-top: 100px;
 }
+
 #introduction p {
     display:flex;
-    font-size:31px;
+    font-size:21px;
     font-weight: 900;
     text-align:flex-start;
     color: #000;
+}
+
+.col-header {
+    font-weight: bold;
 }
 
 .disc-header{
@@ -326,7 +332,7 @@ background-color: #E4F9F5;
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
-    min-height: 250px;
+    min-height: 150px;
   }
   
   .tag {
