@@ -543,8 +543,12 @@ a, a:hover, a:focus, a:active {
    
 
    #favorite-courses{
-  
    flex-direction: column;
+   }
+
+   #favorite-courses h1{
+    font-size:30px;
+    font-weight:bold;
    }
 
 
@@ -564,6 +568,10 @@ a, a:hover, a:focus, a:active {
    /*Locations Mobile*/
 .photo img{
    object-fit: contain;
- 
+}
+
+.section-header{
+    font-size:22px;
+    text-align: center;
 }
 }
